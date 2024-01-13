@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.0">
+	<announcement text="Alt Tab (C) 2024 mlheur@gmail.com" font="emotefont" icon="publicvisionon" />
+	<properties>
+		<name>AltTab</name>
+		<version>1</version>
+		<author>mlheur</author>
+		<description>Alt Tab support between FG windows.</description>
+		<ruleset><name>5E</name></ruleset>
+		<loadorder>254</loadorder>
+	</properties>
+	<base>
+		<script name="AltTab" file="scripts/AltTab.lua" />
+	</base>
+</root>
