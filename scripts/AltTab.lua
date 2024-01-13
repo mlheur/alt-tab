@@ -26,8 +26,8 @@ function AltTabHandler(sCommands, sParams)
             wndclass = wnd.getClass()
             if wndclass == "desktopdecal" then return end
             wndnode = wnd.getDatabaseNode()
-            wndtitle = wndnode.getName()
             if wndnode ~= nil then
+                wndtitle = wndnode.getName()
                 wndtitlenode = wndnode.getChild("name")
                 if wndtitlenode ~= nil then
                     wndtitle = wndtitlenode.getValue()
