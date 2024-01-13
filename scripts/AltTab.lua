@@ -14,10 +14,16 @@ end
 
 function AltTabHandler(sCommands, sParams)
     AltTab.dbg("++AltTabHandler( sCommands=["..sCommands.."], sParams=["..sParams.."] )");
-    nParam = tonumber(sParams)
-    if (nParam == nil) then nParam = 1 end
-    AltTab.dbg("  nParam = ["..nParam.."]")
     WndList = Interface.getWindows()
+    nParam = tonumber(sParams)
+    if (nParam == nil) then
+        i = 0
+        for k,v in pairs(WndList) do
+            i = i + 1
+        end
+        nParam = i - 11
+    end
+    AltTab.dbg("  nParam = ["..nParam.."]")
     if (nParam == 0) then
         AltTab.CommOut("=== LISTING WINDOWS ===")
         AltTab.CommOut("[id] [title] [class]")
