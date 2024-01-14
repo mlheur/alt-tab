@@ -6,6 +6,7 @@ Extension for Fantasy Grounds that allows users to switch between open windows.
 
  - cd ...\Data\extentensions
  - git clone https://github.com/mlheur/alt-tab
+ - enable extension "AltTab" when creating or loading a campaign
 
 ## Usage Instructions
 ### Chat Commands:
