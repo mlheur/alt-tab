@@ -35,8 +35,8 @@ function AltTabHandler(sCommands, sParams)
 
     if nParam > 0 then return AltTab.ToFront(WndList, nParam) end
 
-    LastWindow = 0
-    SecondLast = 0
+    LastWindow = 1
+    SecondLast = 1
     sOut = "=== LISTING WINDOWS ===\n[id] [title] [class]\n======================="
     for i,wnd in pairs(WndList) do
         wndclass = wnd.getClass()
