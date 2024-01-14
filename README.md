@@ -11,9 +11,9 @@ Extension for Fantasy Grounds that allows users to switch between open windows.
 ## Usage Instructions
 ### Chat Commands:
  - "/alttab" will flip back & forth the two MRU windows.
- - "/alttab 1" will cycle through all windows starting with LRU
+ - "/alttab 1" will cycle through all windows starting with LRU.
  - "/alttab 0" will list all open windows in the chat log.
- - "/alttab #" will bring window # to the top; this 
+ - "/alttab #" will bring window # to the top.
 
 ### Create hotkeys for chat commands by:
  - type the command in the chat window without hitting enter
