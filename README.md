@@ -2,7 +2,7 @@
 
 Extension for Fantasy Grounds that allows users to switch between open windows.
 
-## Installation Instructions
+## Server/Host Installation Instructions
 
  - cd ...\Data\extentensions
  - git clone https://github.com/mlheur/alt-tab
